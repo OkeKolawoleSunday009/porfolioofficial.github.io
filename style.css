@@ -6,7 +6,7 @@
 }
 .container{
     /* background-image:url(../workflow/hdf.jpg); */
-    /* background-image:linear-gradient(left, blue, green, white), url(../day3/Kola\ Black\ BG.png); */
+    /* background-image:linear-gradient(left, blue, green, white), url(Kola\ Black\ BG.png); */
     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../day3/Kola\ Black\ BG.png);
     background-position:  center right;
     width: 100%;
