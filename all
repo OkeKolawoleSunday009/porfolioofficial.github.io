@@ -1,0 +1,59 @@
+
+            <div class="title">
+                <h1>My Services</h1>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="pra">
+                        <h2>Maze project</h2>
+                       <p><a href="">Maze Project</a>
+                       <br>This projected aimed at creating a 
+                        MAZE game with realtime gaming experience with distinct characters.</p>
+                      <button>Read more</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="pra">
+                        <h2>Interior design (html/css)</h2>
+                       <p><a href="www.bambam-interiors.netlify.app">Interior Design website</a> <br>
+                       We all love art and art goes well on decorations. delivering
+			            </p>
+                      <button>Read more</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="pra">
+                        <h2>E-commerce website</h2>
+                       <p><a href="flawed.netlify.app">E-commerce</a>
+                       Incorporating my programming skill to electronic commerce or internet commerce.
+                       </p>
+                      <button>Read more</button>
+                    </div>
+                </div>
+            </div>
+                <div class="contact">
+                    <p>let me build you a website</p>
+                    <button class="hire">Hire me</button>
+                </div>
+
+                <footer>
+                    <h3>Oke Kolawole Sunday</h3>
+                    <p>Quality Assured with to serve you better</p>
+
+                    <p><span>Copywrite @ Oke kolawole sunday</span> <p id="date"><?php 
+                    function longdate($timestamp) {
+                        return date("js Y", $timestamp);
+                    }
+                    echo longdate(time());
+                    ?></p></p>
+
+                </footer>
+
+
+        </div>
+   

@@ -1,9 +1,10 @@
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body{background-color: black;}
 .container{
     /* background-image:url(../workflow/hdf.jpg); */
     /* background-image:linear-gradient(left, blue, green, white), url(Kola\ Black\ BG.png); */
@@ -122,16 +123,16 @@ section form button{
     display: flex;
     height: 100vh;
     width: 100%;
-    padding:100px 0;
+    padding:70px;
     background-color: black;
       margin: 0 auto;
-      padding-left: 60px;
+      /* padding-left: 60px; */
     
 }
 .container2 .about{
-    width: 400px;
+    width: 550px;
     color: white;
-    margin-left: 60px;
+    margin-left: 50px;
     /* background-color: blue; */
     padding-top: 90px;
  
@@ -161,31 +162,34 @@ section form button{
     font-size: 17px;
 }
 .service{
-    
+    height: 100vh;
     width: 100%;
+    padding:70px;
     background-color: black;
-    padding: 80px 0;
+    margin: 0 auto;
+     /* background-color: white; */
 }
 .title h1{
-    font-size: 75px;
-    width: 1130px;
-    margin:10px auto;
-    text-align: center;
+    font-size: 55px;
+   /* width: 1130px;
+    */
+    text-align: center; 
     color: white;
 }
 .service .box{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 400px;
-    
+    gap: 2px;
+    /* min-height: 400px; */
+    /* background-color: green; */
 }
 .service .card{
-    width: 300px;
+    width: 500px;
     height: 350px;
     text-align: center;
     color: white;
-    padding: 20px 35px;
+    padding: 20px 25px;
     border-radius: 20px;
     margin: 15px;
     background-color: rgb(26, 25, 25);
@@ -194,12 +198,13 @@ section form button{
 
 }
 .pra h2{
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     color: red;
+    font-size: 16px;
 }
 .pra p{
     color: #fcfc;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 27px;
     margin-bottom: 25px;
 
@@ -220,6 +225,7 @@ section form button{
 }
 
 .contact {
+    margin-top: 100px;
     height: 200px;
     display: flex;
     align-items: center;
